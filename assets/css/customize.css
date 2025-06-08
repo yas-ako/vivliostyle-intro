@@ -1,0 +1,32 @@
+:root {
+  --vs-theme--color-bg: #fff;
+  --vs-theme--color-body: #000;
+  --vs-theme--section-align-items: center;
+  --vs-theme--section-justify-content: center;
+  --vs-theme--h1-color: #212057;
+  --vs-theme--h2-color: #e84e39;
+  --vs-theme--h3-color: #e84e39;
+  --vs-theme--h4-color: #e84e39;
+  --vs-theme--anchor-color: #3498db;
+  --vs-theme--blockquote-mark-color: #d6a;
+  --vs-theme--table-heading-color-bg: rgb(0, 0, 0, 0.1);
+  --vs-theme--page-ref-call-color: forestgreen;
+  --vs-theme--page-ref-call-content: '(p.' target-counter(attr(href url), page) ')';
+  --vs-theme--max-inline-size-on-screen: 40rem;
+  /**
+   *  Styles for cover pages
+   */
+  --vs-theme--cover-page-color-bg: #212057;
+  --vs-theme--cover-page-color-body: #fff;
+  --vs-theme--cover-page-align-items: center;
+  --vs-theme--cover-page-justify-content: center;
+  /**
+   * Styles for image full pages
+   */
+  --vs-theme--image-full-page-margin: 0;
+  --vs-theme--image-full-page-object-fit: cover;
+}
+
+@page {
+  size: 960px 540px;
+}

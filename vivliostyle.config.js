@@ -1,9 +1,12 @@
 module.exports = {
   title: 'vivliostyle-intro', // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: 'https://github.com/yas-ako', // default to `author` in `package.json` or undefined.
-  // language: 'ja', // default to undefined.
-  // size: 'A4', // paper size.
-  theme: '@vivliostyle/theme-slide@^2.0.0', // .css or local dir or npm package. default to undefined.
+  language: 'ja', // default to undefined.
+  // size: 'a5', // paper size.
+  theme: [
+    '@vivliostyle/theme-slide@^2.0.0',
+    './assets/css/customize.css'
+  ], // .css or local dir or npm package. default to undefined.
   entry: [
     'manuscript.md', // `title` is automatically guessed from the file (frontmatter > first heading).
     // {
