@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap');
+
 :root {
   --vs-theme--color-bg: #fff;
   --vs-theme--color-body: #000;
-  --vs-theme--section-align-items: center;
-  --vs-theme--section-justify-content: center;
-  --vs-theme--h1-color: #212057;
+  --vs-theme--section-align-items: start;
+  --vs-theme--section-justify-content: start;
+  --vs-theme--h1-color: #1c3177;
   --vs-theme--h2-color: #e84e39;
   --vs-theme--h3-color: #e84e39;
   --vs-theme--h4-color: #e84e39;
@@ -16,7 +18,7 @@
   /**
    *  Styles for cover pages
    */
-  --vs-theme--cover-page-color-bg: #212057;
+  --vs-theme--cover-page-color-bg: #1c3177;
   --vs-theme--cover-page-color-body: #fff;
   --vs-theme--cover-page-align-items: center;
   --vs-theme--cover-page-justify-content: center;
@@ -25,8 +27,35 @@
    */
   --vs-theme--image-full-page-margin: 0;
   --vs-theme--image-full-page-object-fit: cover;
+
+  /**
+   * カスタマイズ
+   */
+  --vs-page--mbox-content-top-right: "Vivliostyleでレポートを書こう！";
+  --vs-font-family: 'Zen Kaku Gothic New', sans-serif;
+  --vs-font-size: 20pt;
 }
 
 @page {
-  size: 960px 540px;
+  size: 256mm 144mm;
+}
+
+section:has(h2.author) {
+  display: flex;
+  align-items: center;
+}
+
+section:has(h1.chapter-heading) {
+  justify-content: center;
+}
+
+section:has(h1.chapter-heading) h1 {
+  font-size: 2.5em;
+  height: 1.4em;
+  border-bottom: #7f96c2 4px solid;
+  counter-increment: slide-chapter;
+}
+
+section:has(h1.chapter-heading) h1::before {
+  content: counter(slide-chapter) '. ';
 }
