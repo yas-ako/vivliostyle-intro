@@ -40,20 +40,20 @@
   size: 256mm 144mm;
 }
 
-section:has(h2.author) {
+section:has(h2.author-name) {
   display: flex;
   align-items: center;
 }
 
 section:has(h1.chapter-heading) {
   justify-content: center;
+  counter-increment: slide-chapter;
 }
 
 section:has(h1.chapter-heading) h1 {
   font-size: 2.5em;
   height: 1.4em;
   border-bottom: #7f96c2 4px solid;
-  counter-increment: slide-chapter;
 }
 
 section:has(h1.chapter-heading) h1::before {
