@@ -33,11 +33,23 @@
    */
   --vs-page--mbox-content-top-right: "Vivliostyleでレポートを書こう！";
   --vs-font-family: 'Zen Kaku Gothic New', sans-serif;
-  --vs-font-size: 20pt;
+  --vs-font-size: 30pt;
+
+  --vs-spacing-rlh: calc(var(--vs-line-height) * 0.3rem);
+  /* --vs-line-height: 1.5; */
+  --vs--heading-margin-block: calc(0.5 * 1rem);
+
+  --vs--h1-font-size: 1.7em;
+  --vs--h2-font-size: 1.7em;
+  --vs--h3-font-size: 1.5em;
+  --vs--h4-font-size: 1.33em;
+  --vs--h5-font-size: 1.17em;
+  --vs--h6-font-size: 1em;
 }
 
 @page {
-  size: 256mm 144mm;
+  /* size: 256mm 144mm; */
+  size: 1280px 720px;
 }
 
 section:has(h2.author-name) {
@@ -45,17 +57,27 @@ section:has(h2.author-name) {
   align-items: center;
 }
 
+/* section:has(> .cover:first-child) h1 {
+  display: flex;
+   */
 section:has(h1.chapter-heading) {
+  flex: 1 1 auto;
   justify-content: center;
   counter-increment: slide-chapter;
 }
 
 section:has(h1.chapter-heading) h1 {
-  font-size: 2.5em;
-  height: 1.4em;
+  font-size: 2rem;
+  height: 1.7em;
+  line-height: 1.5em;
   border-bottom: #7f96c2 4px solid;
 }
 
 section:has(h1.chapter-heading) h1::before {
   content: counter(slide-chapter) '. ';
 }
+
+/* .cover,
+section:has(> .cover:first-child) {
+  --vs--h1-font-size: 2rem;
+} */
