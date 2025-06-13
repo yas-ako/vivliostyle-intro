@@ -7,22 +7,24 @@
 
 # 自己紹介
 
+<div class="horizontal-container">
+
+
+- traQ ID「**yasako**」（25B）
+- 班
+  - アルゴリズム班 / CTF班 / SysAd班 /<br> グラフィック班
+- 趣味
+  - パソコン / ピアノ / オタマトーン
+- 頑張りたいこと
+  - Web / 3DCG / 競プロ / CTF
+
+
+<!-- <img src="https://q.trap.jp/api/v3/public/icon/yasako"/> -->
+
 ![](https://q.trap.jp/api/v3/public/icon/yasako){width=300}
 
 
-- 名前：yasako
-- 学年：25B
-
-
-# 自己紹介
-
-- 班
-  - アルゴリズム班 / CTF班 / SysAd班 / グラフィック班
-- 趣味
-  - パソコン / ピアノ / オタマトーン
-
-- 頑張りたいこと
-  - Web / 3DCG / 競技プログラミング / CTF
+</div>
 
 # 注意してほしいこと
 
