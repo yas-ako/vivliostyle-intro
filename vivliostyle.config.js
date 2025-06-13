@@ -5,7 +5,8 @@ module.exports = {
   // size: 'a5', // paper size.
   theme: [
     '@vivliostyle/theme-slide@^2.0.0',
-    './assets/css/customize.css'
+    './assets/css/customize.css',
+    'tailwindcss'
   ], // .css or local dir or npm package. default to undefined.
   entry: [
     'manuscript.md', // `title` is automatically guessed from the file (frontmatter > first heading).
@@ -31,4 +32,5 @@ module.exports = {
   //   hardLineBreaks: true, // converts line breaks of VFM to <br> tags. default to 'false'.
   //   disableFormatHtml: true, // disables HTML formatting. default to 'false'.
   // },
+  viteConfigFile: "vite.config.mjs"
 }

@@ -8,7 +8,9 @@
     "preview": "vivliostyle preview"
   },
   "dependencies": {
-    "@vivliostyle/cli": "latest"
+    "@tailwindcss/vite": "^4.1.10",
+    "@vivliostyle/cli": "latest",
+    "tailwindcss": "^4.1.10"
   },
   "license": "MIT",
   "private": true
