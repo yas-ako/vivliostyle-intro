@@ -81,3 +81,48 @@ section:has(h1.chapter-heading) h1::before {
 section:has(> .cover:first-child) {
   --vs--h1-font-size: 2rem;
 } */
+
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: auto;
+  width: 100%;
+}
+
+
+ul li::marker {
+  color: #1c3177;
+}
+
+ul ul li {
+  list-style-type: none;
+  position: relative;
+}
+
+ul ul li::before {
+  content: '';
+  position: absolute;
+  left: -0.8em;
+  top: 0.6em;
+  width: 0.4em;
+  height: 0.4em;
+  border: 2px solid black;
+  background-color: white;
+}
+
+ul ul ul li {
+  list-style-type: none;
+  position: relative;
+}
+
+ul ul ul li::before {
+  content: '';
+  position: absolute;
+  left: -0.8em;
+  top: 0.6em;
+  width: 0.4em;
+  height: 0.4em;
+  background-color: black;
+}
