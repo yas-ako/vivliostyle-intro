@@ -11,17 +11,17 @@
 
 
 - traQ ID「**yasako**」（25B）
-- 班
-  - アルゴリズム班 / CTF班 / SysAd班 /<br> グラフィック班
+- 所属している班
+  -  SysAd班 / グラフィック班 / CTF班 /<br>アルゴリズム班
 - 趣味
   - パソコン / ピアノ / オタマトーン
 - 頑張りたいこと
-  - Web / 3DCG / 競プロ / CTF
+  - Web / 3DCG / CTF / 競プロ
 
 
 <!-- <img src="https://q.trap.jp/api/v3/public/icon/yasako"/> -->
 
-![](https://q.trap.jp/api/v3/public/icon/yasako){width=300}
+![](https://q.trap.jp/api/v3/public/icon/yasako){width=350}
 
 
 </div>
@@ -30,9 +30,9 @@
 
 - 他の組版ソフトと比較することがあります
   - もちろん、他の組版ソフトの方が優れている点もあります。<span style="font-size: 20px">~~他の組版ソフトの方が優れていることが多いです~~ </span>
-- Vivliostyleにそこまで詳しいわけではありないため、誤った情報が含まれるかもしれません
-- 公式ドキュメントが最新バージョンに合わせて更新されていないことが多いです
-- 自分用にカスタマイズするには、CSSの知識が必要です
+- Vivliostyleにそこまで詳しいわけではありないため、誤った情報が含まれるかもしれません。
+- 公式ドキュメントが最新バージョンに合わせて更新されていないことが多いです。
+- 自分用にカスタマイズするには、CSSの知識が必要です。
 
 # Vivliostyleの全体像{.chapter-heading}
 
@@ -40,7 +40,7 @@
 
 - CSS組版のためのソフトウェア
   - HTML/CSSなどのWeb技術で組版をする
-- traP Tech Book でも、PDFを出力する際に使用しているらしい...？
+- traP Tech Book で、PDFを出力する際に使用している<br>らしい...？
 
 # 組版とは？
 
@@ -49,6 +49,34 @@
 - 例えば...
   - 見出し：プロポーショナルフォント
   - 本文：等幅フォント
+
+# 組版ソフトの例：Word
+
+- 簡単
+- WISIWG（What You See Is What You Get）
+- お金がかかる
+- 構造化された文章を書くのがつらい
+  
+# 組版ソフトの例：Word
+
+つらい
+
+# 組版ソフトの例：Word
+
+つらい
+
+# 組版ソフトの例：Indesign
+
+- ほとんど使ったことがないので僕はわかりません
+
+# 組版ソフトの例：その他
+
+- Publisher
+- 朝刊太郎
+- 一太郎
+- PowerPoint
+
+# 組版ソフトの例：$\mathrm \TeX$
 
 # Vivliostyleを用いた組版の流れ
 
@@ -79,18 +107,25 @@
 <!-- - を定義したCSSファイルを元に、印刷可能なPDFファイルを生成する。 -->
   - PDF生成には、内部でChromiumを使用している
 
-# Vivliostyleの何が良いの？
+# Vivliostyleの良い点と欠点 {.chapter-heading}
 
-- Markdownで書ける
-- Webの知識がそのまま使える
-- 環境構築が楽
-- TeXの数式が書ける
+# Vivliostyleの良い点
+
+- 環境構築
+  - 簡単
+- 執筆
+  - Markdownで書ける
+  - HTMLも使える
+  - Webの知識がそのまま使える
+  - TeXの数式が書ける()
+
+# Vivliostyleの良い点
+
 - ファイル内にハイパーリンクを貼れる
 - 図表番号の参照ができる
 - 見出しの番号を自由にカスタマイズできる
 - ヘッダーとフッターを簡単のカスタマイズできる
-
-# 有名な組版ソフトとの違い
+- 
 
 - デメリット
     - ネットにある情報が少ない
@@ -102,9 +137,6 @@
     - 図表番号の参照ができる
     - 見出しの番号を自由にカスタマイズできる
     - ヘッダーとフッターを簡単のカスタマイズできる
-- デメリット
-    - ネットにある情報が少ない
-    - 公式ドキュメントの更新が追いついていない
 
 
 # 実際に使ってみる{.chapter-heading}
@@ -189,11 +221,29 @@
 
 # 
 
-<div style="text-align: center;">
-このスライドもvivliostyleで作りました
+<div class="vertical-container">
+<strong style="text-align: center;">このスライドもvivliostyleで作りました</strong>
+
 
 <!-- ![](./assets/vivliostyle-intro-vscode.png){width=800 style="margin-inline: auto;"} -->
 
-<img src="./assets/vivliostyle-intro-vscode.png" width=850px style="margin-inline: auto;">
+<img src="./assets/vivliostyle-intro-vscode.png" width=800px style="margin-inline: auto;">
 
 </div>
+
+# 参考資料
+
+- [VFMで学会論文を書いてVivliostyleで組んで投稿する［前編］](https://gihyo.jp/article/2025/02/vivliostyle-05)
+- 
+
+
+# ご清聴ありがとうございました！！
+
+- [組版とは？](#組版とは)（Word / Indesign / $\mathrm \TeX$）
+- [Vivliostyleの良い点と欠点](#Vivliostyleの良い点と欠点)
+- 実際に使ってみる
+- 図・表・数式の挿入/参照
+- ノンブル、柱、ヘッダー、フッター
+- カウンタ
+- Running Head
+- 今後やってみたいこと
