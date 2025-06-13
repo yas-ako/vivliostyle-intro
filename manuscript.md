@@ -59,11 +59,19 @@
   
 # 組版ソフトの例：Word
 
-つらい
+<div class="vertical-container">
+
+<img src="./assets/word_tokikake.png" width="600px" style="margin: 0 auto; border: 1px solid #aaa;">
+
+</div>
 
 # 組版ソフトの例：Word
 
-つらい
+<div class="vertical-container">
+
+<img src="./assets/word_tokikake_content.png" width="900px" style="margin: 0 auto; border: 1px solid #aaa;">
+
+</div>
 
 # 組版ソフトの例：Indesign
 
@@ -107,36 +115,43 @@
 <!-- - を定義したCSSファイルを元に、印刷可能なPDFファイルを生成する。 -->
   - PDF生成には、内部でChromiumを使用している
 
-# Vivliostyleの良い点と欠点 {.chapter-heading}
+# Vivliostyleの良い点と欠点{.chapter-heading}
 
-# Vivliostyleの良い点
+# Vivliostyleの良い点(1/3)
 
 - 環境構築
-  - 簡単
+  - とても簡単
 - 執筆
   - Markdownで書ける
   - HTMLも使える
   - Webの知識がそのまま使える
   - TeXの数式が書ける()
 
-# Vivliostyleの良い点
+# Vivliostyleの良い点(2/3)
 
 - ファイル内にハイパーリンクを貼れる
 - 図表番号の参照ができる
 - 見出しの番号を自由にカスタマイズできる
 - ヘッダーとフッターを簡単のカスタマイズできる
-- 
+- CSSについて分からないことがあったとき、AIに聞いたら大体教えてくれる
 
-- デメリット
-    - ネットにある情報が少ない
-    - 公式ドキュメントの更新が追いついていない
+# Vivliostyleの良い点(3/3)
 
-# bbb
-- aaa
-    - ファイル内にハイパーリンクを貼れる
-    - 図表番号の参照ができる
-    - 見出しの番号を自由にカスタマイズできる
-    - ヘッダーとフッターを簡単のカスタマイズできる
+- 開発が活発（次の例は Vivliostyle cli）
+  - v9.0.0 のリリースは 2025/5/3
+  - v9.2.0 のリリースは 2025/6/10
+  - 約一か月の間に、最新版のリリースが5回あった
+
+# Vivliostyleの良くない点
+
+
+- ネットにある情報が少ない
+  - ユーザーが少ないため
+  - もっといろんな人に広めたい！
+- 公式ドキュメントの更新が追いついていない
+  - 開発が早いものの、コントリビューターが少ない
+- 結局、試行錯誤が必要
+  - どの組版ソフトも同じ？
 
 
 # 実際に使ってみる{.chapter-heading}
@@ -234,13 +249,13 @@
 # 参考資料
 
 - [VFMで学会論文を書いてVivliostyleで組んで投稿する［前編］](https://gihyo.jp/article/2025/02/vivliostyle-05)
-- 
+- <https://github.com/vivliostyle/vivliostyle-cli>
 
 
 # ご清聴ありがとうございました！！
 
 - [組版とは？](#組版とは)（Word / Indesign / $\mathrm \TeX$）
-- [Vivliostyleの良い点と欠点](#Vivliostyleの良い点と欠点)
+- [Vivliostyleの良い点と欠点](#vivliostyleの良い点と欠点)
 - 実際に使ってみる
 - 図・表・数式の挿入/参照
 - ノンブル、柱、ヘッダー、フッター
