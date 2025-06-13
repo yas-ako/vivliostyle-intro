@@ -6,7 +6,6 @@ module.exports = {
   theme: [
     '@vivliostyle/theme-slide@^2.0.0',
     './assets/css/customize.css',
-    'tailwindcss'
   ], // .css or local dir or npm package. default to undefined.
   entry: [
     'manuscript.md', // `title` is automatically guessed from the file (frontmatter > first heading).
