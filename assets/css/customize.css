@@ -57,20 +57,29 @@ section:has(h2.author-name) {
   align-items: center;
 }
 
-/* section:has(> .cover:first-child) h1 {
-  display: flex;
-   */
 section:has(h1.chapter-heading) {
-  flex: 1 1 auto;
+  /* ページのスタイルの名前を呼び出す */
+  page: chapter-heading;
+
   justify-content: center;
   counter-increment: slide-chapter;
+  background-color: #7f97c222;
+}
+
+/* ここでページのスタイルに名前をつける */
+@page chapter-heading {
+  background-color: #7f97c222;
+
+  /* チャプターの見出しページだけ、左上のタイトルを表示しない */
+  --vs-page--mbox-content-top-right: none;
 }
 
 section:has(h1.chapter-heading) h1 {
+  /* flex: 1 1 auto; */
   font-size: 2rem;
   height: 1.7em;
   line-height: 1.5em;
-  border-bottom: #7f96c2 4px solid;
+  border-bottom: #7f96c2 10px solid;
 }
 
 section:has(h1.chapter-heading) h1::before {
@@ -92,6 +101,15 @@ section:has(> .cover:first-child) {
 }
 
 
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+  width: 100%;
+  /* margin: auto; */
+}
+
 ul li::marker {
   color: #1c3177;
 }
@@ -108,7 +126,7 @@ ul ul li::before {
   top: 0.6em;
   width: 0.4em;
   height: 0.4em;
-  border: 2px solid black;
+  border: 4px solid black;
   background-color: white;
 }
 
