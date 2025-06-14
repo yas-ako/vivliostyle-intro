@@ -61,7 +61,7 @@
 
 <div class="vertical-container">
 
-<img src="./assets/word_tokikake.png" width="600px" style="margin: 0 auto; border: 1px solid #aaa;">
+<img src="./assets/word_tokikake.png" width="600px" style="margin: 0 auto; border: 1px solid #aaa; overflow: hidden;">
 
 </div>
 
@@ -76,15 +76,35 @@
 # 組版ソフトの例：Indesign
 
 - ほとんど使ったことがないので僕はわかりません
+- 組版ソフトウェアのデファクトスタンダードらしい
 
 # 組版ソフトの例：その他
 
-- Publisher
-- 朝刊太郎
-- 一太郎
-- PowerPoint
+- 朝刊太郎(使ったことはありません)
+- 一太郎(使ったことはありません)
+- ~~Microsoft Publisher~~
+  - 26年でサポートが切れるらしい
+
+# 組版ソフトの例：？？？
+
+<img src="./assets/powerpoint_poster.jpg" width="350px" style="margin: 0 auto;">
+
+# 組版ソフトの例：？？？
+
+<img src="./assets/powerpoint_poster_up.jpg" width="700px" style="margin: 0 auto;">
+
+# 組版ソフトの例：？？？
+
+<img src="./assets/powerpoint_poster_down.jpg" width="700px" style="margin: 0 auto;">
+
+# 組版ソフトの例：PowerPoint
+
+<img src="./assets/powerpoint_window.jpg" width="700px" style="margin: 0 auto;">
+
 
 # 組版ソフトの例：$\mathrm \TeX$
+
+<img src="./assets/tex_sample.png" width="900px" style="margin: 0 auto; border: 1px solid #aaa;">
 
 # Vivliostyleを用いた組版の流れ
 
@@ -129,7 +149,7 @@
 
 # Vivliostyleの良い点(2/3)
 
-- ファイル内にハイパーリンクを貼れる
+- ファイル内にリンクを貼れる
 - 図表番号の参照ができる
 - 見出しの番号を自由にカスタマイズできる
 - ヘッダーとフッターを簡単のカスタマイズできる
@@ -144,13 +164,12 @@
 
 # Vivliostyleの良くない点
 
-
 - ネットにある情報が少ない
   - ユーザーが少ないため
   - もっといろんな人に広めたい！
 - 公式ドキュメントの更新が追いついていない
   - 開発が早いものの、コントリビューターが少ない
-- 結局、試行錯誤が必要
+- 結局のところ試行錯誤は必要
   - どの組版ソフトも同じ？
 
 
