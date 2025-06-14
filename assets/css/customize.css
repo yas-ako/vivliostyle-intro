@@ -144,3 +144,45 @@ ul ul ul li::before {
   height: 0.4em;
   background-color: black;
 }
+
+p>img {
+  max-width: 100%;
+  /* 画像がp要素からはみ出さないように */
+  height: 100%;
+  /* p要素の高さに合わせる */
+  object-fit: contain;
+  /* アスペクト比を維持して、要素内に収まるように */
+  display: block;
+  /* img要素の下にできる余白をなくす */
+  margin-inline: auto;
+}
+
+p:has(> img:first-child:last-child) {
+  /* imgを囲むp要素にflex-growを適用 */
+  flex-grow: 1;
+  /* 残りのスペースをすべて占める */
+  margin: 0;
+  /* p要素のデフォルトのマージンをリセット */
+  display: flex;
+  /* p要素をflexコンテナとしてimgを中央配置するために使用 */
+  justify-content: center;
+  /* 水平方向の中央揃え (必要であれば) */
+  align-items: center;
+  /* 垂直方向の中央揃え (必要であれば) */
+  overflow: hidden;
+  /* 画像がはみ出るのを防ぐ（object-fitと組み合わせる） */
+  width: 100%;
+  display: flex;
+}
+
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  margin-top: 0.5em;
+  padding: -3em;
+  object-fit: contain;
+  width: auto;
+} */

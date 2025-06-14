@@ -19,9 +19,9 @@
   - Web / 3DCG / CTF / 競プロ
 
 
-<!-- <img src="https://q.trap.jp/api/v3/public/icon/yasako"/> -->
+<img src="https://q.trap.jp/api/v3/public/icon/yasako" width="350px" height="350px"/>
 
-![](https://q.trap.jp/api/v3/public/icon/yasako){width=350}
+<!-- ![](https://q.trap.jp/api/v3/public/icon/yasako){width=350} -->
 
 
 </div>
@@ -59,19 +59,25 @@
   
 # 組版ソフトの例：Word
 
-<div class="vertical-container">
+![](./assets/word_tokikake.png){style="border:1px solid #bbb"}
 
-<img src="./assets/word_tokikake.png" width="600px" style="margin: 0 auto; border: 1px solid #aaa; overflow: hidden;">
+<!-- <div class="vertical-container"> -->
 
-</div>
+<!-- <img src="./assets/word_tokikake.png" width="600px" style="margin: 0 auto; border: 1px solid #aaa; overflow: hidden;"> -->
+
+
+
+<!-- </div> -->
 
 # 組版ソフトの例：Word
 
-<div class="vertical-container">
+![](./assets/word_tokikake_content.png){style="border:1px solid #bbb"}
 
-<img src="./assets/word_tokikake_content.png" width="900px" style="margin: 0 auto; border: 1px solid #aaa;">
+<!-- <div class="vertical-container"> -->
 
-</div>
+<!-- <img src="./assets/word_tokikake_content.png" width="900px" style="margin: 0 auto; border: 1px solid #aaa;"> -->
+
+<!-- </div> -->
 
 # 組版ソフトの例：Indesign
 
@@ -87,24 +93,35 @@
 
 # 組版ソフトの例：？？？
 
-<img src="./assets/powerpoint_poster.jpg" width="350px" style="margin: 0 auto;">
+<!-- <img src="./assets/powerpoint_poster.jpg" width="350px" style="margin: 0 auto;"> -->
+
+![](./assets/powerpoint_poster.jpg)
+
+<!-- <img src="./assets/powerpoint_poster.jpg"> -->
 
 # 組版ソフトの例：？？？
 
-<img src="./assets/powerpoint_poster_up.jpg" width="700px" style="margin: 0 auto;">
+![](./assets/powerpoint_poster_up.jpg)
+
+<!-- <img src="./assets/powerpoint_poster_up.jpg" width="700px" style="margin: 0 auto;"> -->
 
 # 組版ソフトの例：？？？
 
-<img src="./assets/powerpoint_poster_down.jpg" width="700px" style="margin: 0 auto;">
+![](./assets/powerpoint_poster_down.jpg)
+
+<!-- <img src="./assets/powerpoint_poster_down.jpg" width="700px" style="margin: 0 auto;"> -->
 
 # 組版ソフトの例：PowerPoint
 
-<img src="./assets/powerpoint_window.jpg" width="700px" style="margin: 0 auto;">
+![](./assets/powerpoint_window.jpg)
+
+<!-- <img src="./assets/powerpoint_window.jpg" width="700px" style="margin: 0 auto;"> -->
 
 
 # 組版ソフトの例：$\mathrm \TeX$
 
-<img src="./assets/tex_sample.png" width="900px" style="margin: 0 auto; border: 1px solid #aaa;">
+![](./assets/tex_sample.png)
+<!-- <img src="./assets/tex_sample.png" width="900px" style="margin: 0 auto; border: 1px solid #aaa;"> -->
 
 # Vivliostyleを用いた組版の流れ
 
@@ -188,7 +205,36 @@
 
 # インストール・環境構築
 
-（CLIの画像）
+
+![](./assets/install/install_01.jpg)
+
+<!-- <div class="horizontal-container"> -->
+  <!-- <img src="./assets/install/install_01.jpg" style="display: block; margin-left: auto; margin-right: auto; height:70%; padding-block:0.5em;"> -->
+<!-- </div> -->
+
+# インストール・環境構築
+
+![](./assets/install/install_02.jpg)
+
+# インストール・環境構築
+
+![](./assets/install/install_03.jpg)
+
+# インストール・環境構築
+
+![](./assets/install/install_04.jpg)
+
+# インストール・環境構築
+
+![](./assets/install/install_05.jpg)
+
+# インストール・環境構築
+
+````.gitignore
+# Vivliostyle
+.vivliostyle/*
+````
+
 
 # サンプルを出力してみる
 
