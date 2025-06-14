@@ -192,10 +192,10 @@
 
 # 実際に使ってみる{.chapter-heading}
 
-# インストール・環境構築
+# インストール・環境構築 1
 
 - 使い方
-    - `npm create book`
+    - `npm create book {プロジェクト名}`
       - CLIの質問に答えることで、プロジェクトを作成できる
       - テーマを選択（今回は academic を使用）
     - `npm run preview`
@@ -203,7 +203,10 @@
     - `npm run build`
         - PDFを生成する
 
-# インストール・環境構築
+# インストール・環境構築 2
+
+- プロジェクトを作成
+- メニューに従って選択
 
 
 ![](./assets/install/install_01.jpg)
@@ -212,28 +215,63 @@
   <!-- <img src="./assets/install/install_01.jpg" style="display: block; margin-left: auto; margin-right: auto; height:70%; padding-block:0.5em;"> -->
 <!-- </div> -->
 
-# インストール・環境構築
+# インストール・環境構築 3
 
 ![](./assets/install/install_02.jpg)
 
-# インストール・環境構築
+# インストール・環境構築 4
+
+- テーマを選択
+  - 今回は `academic` を選択 
+
 
 ![](./assets/install/install_03.jpg)
 
-# インストール・環境構築
+# インストール・環境構築 5
+
+- プロジェクトを生成中
+
 
 ![](./assets/install/install_04.jpg)
 
-# インストール・環境構築
+# インストール・環境構築 6
+
+- 準備完了
+
 
 ![](./assets/install/install_05.jpg)
 
-# インストール・環境構築
+# インストール・環境構築 7
 
-````.gitignore
+- VSCode でディレクトリを開く
+
+![](./assets/install/install_06.jpg)
+
+
+# インストール・環境構築 8
+
+`.vivliostyle` ディレクトリを除外する
+
+```bash title=.gitignore
 # Vivliostyle
 .vivliostyle/*
-````
+
+# Logs
+logs
+*.log  # ...(略)
+```
+
+# インストール・環境構築 9
+
+main ブランチではなく master ブランチになっているので注意
+
+![](./assets/install/install_08.jpg)
+
+
+# インストール・環境構築 10
+
+
+![](./assets/install/install_09.jpg)
 
 
 # サンプルを出力してみる
