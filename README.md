@@ -1,6 +1,18 @@
 # Vivliostyle Intro
 
 
+##  Vivliostyle でレポートを書こう！
+
+Vivliostyleについて紹介するスライドのソースコードです。
+
+- https://github.com/yas-ako/my-vivliostyle-report-template
+  - Vivliostyle のレポートテンプレート を作ってみた
+  - 実際にレポートを提出する際に使用した
+- https://github.com/yas-ako/vivliostyle-intro
+  - このスライドのソースコード
+  - 気になるところがあったら質問してください
+    - 分かる範囲でこたえます
+
 
 > created by [create-book](https://github.com/vivliostyle/create-book).
 

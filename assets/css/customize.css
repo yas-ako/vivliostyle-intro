@@ -31,7 +31,7 @@
   /**
    * カスタマイズ
    */
-  --vs-page--mbox-content-top-right: "Vivliostyleでレポートを書こう！";
+  --vs-page--mbox-content-top-right: env(pub-title);
   --vs-font-family: 'Zen Kaku Gothic New', sans-serif;
   --vs-font-size: 30pt;
 

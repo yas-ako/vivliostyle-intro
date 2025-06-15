@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'vivliostyle-intro', // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
+  title: 'Vivliostyleでレポートを書こう！', // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: 'https://github.com/yas-ako', // default to `author` in `package.json` or undefined.
   language: 'ja', // default to undefined.
   // size: 'a5', // paper size.
